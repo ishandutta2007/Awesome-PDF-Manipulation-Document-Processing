@@ -4,16 +4,18 @@
 
 # 📄 Awesome PDF Manipulation & Document Processing 🚀
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-PDF-Manipulation-Document-Processing/pulls)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-PDF-Manipulation-Document-Processing/graphs/commit-activity)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 **Curated ecosystem of enterprise SaaS platforms, self-hosted web utilities, and high-performance open-source libraries for PDF manipulation, OCR extraction, document AI, and parsing pipelines.**
 
 *Empowering developers, ops teams, and legal/finance departments to merge, split, compress, convert, OCR, watermark, and digitally sign documents locally, in the cloud, or with privacy-preserving client-side WebAssembly.*
 
-[SaaS Platforms](#-saashosted-platforms) • [Market Dynamics](#-sector-overview--market-dynamics) • [Open-Source Engines](#-open-source-github-projects) • [Contributing](#-how-to-contribute) • [Disclaimer](#-disclaimer)
+[SaaS Platforms](#-saashosted-platforms) • [Market Dynamics](#-sector-overview--market-dynamics) • [Open-Source Engines](#-open-source-github-projects) • [Contributing](#-how-to-contribute) • [Support](#-support--community) • [Star History](#-star-history) • [Disclaimer](#-security--privacy-disclaimer)
 
 ---
 
@@ -27,6 +29,8 @@
   - [🏆 Ranked by GitHub Community Stars](#-ranked-by-github-community-stars)
   - [🛠️ Toolkits & Architectural Frameworks](#-toolkits--architectural-frameworks)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Community](#-support--community)
+- [📈 Star History](#-star-history)
 - [⚠️ Security & Privacy Disclaimer](#-security--privacy-disclaimer)
 
 ---
@@ -189,6 +193,24 @@ We welcome additions, corrections, and tool submissions from the document proces
 - 🛡️ **PII & Data Confidentiality**: Legal, financial, healthcare, and human resource documents frequently contain sensitive Personally Identifiable Information (PII). Avoid uploading confidential files to third-party ad-based web converters. Whenever feasible, prioritize **client-side WebAssembly tools** (e.g., BentoPDF) or **isolated self-hosted Docker containers** (e.g., Stirling-PDF).
 - 🔒 **True Content Redaction**: Black visual rectangle overlays or highlight coverings do **not** securely redact PDF text or embedded metadata. Always use true stream redaction libraries (e.g., PyMuPDF redaction methods, Stirling-PDF sanitize workflows, or rasterization) prior to public release.
 - 📜 **Community Listing**: This repository is a curated community index; inclusion does not constitute a formal commercial endorsement or legal audit.
+
+---
+
+## 💖 Support & Community
+
+Thank you for exploring and using this repository! If you find this curated ecosystem helpful for your projects, pipelines, or workflow automation, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it on GitHub.
+- 🍴 **Fork and contribute** your favorite PDF manipulation and document processing tools.
+- 📢 **Share with colleagues**, developers, and teams building document pipelines.
+- ☕ **Support the maintainer**: If you would like to buy a coffee or sponsor ongoing maintenance, please visit the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-PDF-Manipulation-Document-Processing&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-PDF-Manipulation-Document-Processing&type=date&legend=top-left)
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-PDF-Manipulation-Document-Processing&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-PDF-Manipulation-Document-Processing&type=date&legend=top-left)
 
 ---
 
