@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="35%" stop-color="#f97316" />
+      <stop offset="70%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <linearGradient id="glowRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ef4444" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="glowPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="pillGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0.2" />
+    </linearGradient>
+    <linearGradient id="pillGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.2" />
+    </linearGradient>
+    <linearGradient id="pillGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.2" />
+    </linearGradient>
+
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <style>
+      .bg-pulse {
+        animation: pulseGlow 8s ease-in-out infinite alternate;
+      }
+      .wave-flow {
+        animation: waveAnim 14s linear infinite;
+      }
+      .node-pulse {
+        animation: nodePulse 3s ease-in-out infinite alternate;
+      }
+      .float-badge {
+        animation: floatBadge 6s ease-in-out infinite alternate;
+      }
+      .stream-dash {
+        stroke-dasharray: 8 8;
+        animation: streamFlow 20s linear infinite;
+      }
+      @keyframes pulseGlow {
+        0% { transform: scale(0.95); opacity: 0.35; }
+        100% { transform: scale(1.15); opacity: 0.7; }
+      }
+      @keyframes waveAnim {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-400px); }
+      }
+      @keyframes nodePulse {
+        0% { r: 4px; opacity: 0.4; }
+        100% { r: 8px; opacity: 0.9; }
+      }
+      @keyframes floatBadge {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-8px); }
+      }
+      @keyframes streamFlow {
+        from { stroke-dashoffset: 200; }
+        to { stroke-dashoffset: 0; }
+      }
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        letter-spacing: -0.8px;
+      }
+      .sub-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+        font-weight: 500;
+      }
+      .mono-text {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+      }
+    </style>
+  </defs>
+
+  <!-- Deep Backdrop Base -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Dynamic / Animated Background Glow Orbs -->
+  <g filter="url(#shadow)">
+    <circle class="bg-pulse" cx="180" cy="110" r="220" fill="url(#glowRed)" />
+    <circle class="bg-pulse" cx="1020" cy="300" r="260" fill="url(#glowPurple)" />
+  </g>
+
+  <!-- Dynamic Digital Grid Lines (Background Depth) -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="70" x2="1200" y2="70" />
+    <line x1="0" y1="140" x2="1200" y2="140" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="280" x2="1200" y2="280" />
+    <line x1="0" y1="350" x2="1200" y2="350" />
+    <line x1="150" y1="0" x2="150" y2="420" />
+    <line x1="300" y1="0" x2="300" y2="420" />
+    <line x1="450" y1="0" x2="450" y2="420" />
+    <line x1="600" y1="0" x2="600" y2="420" />
+    <line x1="750" y1="0" x2="750" y2="420" />
+    <line x1="900" y1="0" x2="900" y2="420" />
+    <line x1="1050" y1="0" x2="1050" y2="420" />
+  </g>
+
+  <!-- Dynamic Flow Connector Curves in Lower Background -->
+  <g fill="none" opacity="0.25">
+    <path class="stream-dash" d="M -50 360 C 250 310, 450 390, 750 340 C 950 310, 1100 370, 1250 330" stroke="#ef4444" stroke-width="2" />
+    <path class="stream-dash" d="M -50 330 C 200 380, 500 320, 800 370 C 1000 400, 1150 340, 1250 370" stroke="#8b5cf6" stroke-width="2" />
+    <path class="stream-dash" d="M -50 380 C 300 340, 600 410, 900 350 C 1050 320, 1180 360, 1250 340" stroke="#06b6d4" stroke-width="1.5" />
+  </g>
+
+  <!-- Pulsing Data Nodes along Bottom Flow -->
+  <circle class="node-pulse" cx="240" cy="345" r="5" fill="#ef4444" />
+  <circle class="node-pulse" cx="580" cy="348" r="6" fill="#8b5cf6" />
+  <circle class="node-pulse" cx="890" cy="358" r="5" fill="#3b82f6" />
+  <circle class="node-pulse" cx="1060" cy="342" r="6" fill="#10b981" />
+
+  <!-- Top Badge Indicator -->
+  <g class="float-badge" transform="translate(480, 42)">
+    <rect x="0" y="0" width="240" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <circle cx="16" cy="16" r="4" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="32" y="21" fill="#94a3b8" class="mono-text" font-size="12" font-weight="600" letter-spacing="1">CURATED ECOSYSTEM 2026</text>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Header & High Contrast Titles -->
+  <!-- Main Title -->
+  <text x="600" y="142" text-anchor="middle" class="title-text" font-size="44" fill="url(#primaryGrad)" filter="url(#shadow)">
+    Awesome PDF Manipulation
+  </text>
+  <text x="600" y="196" text-anchor="middle" class="title-text" font-size="36" fill="#f8fafc" filter="url(#shadow)">
+    &amp; Document Processing
+  </text>
+
+  <!-- Subtitle Tagline in Clean Foreground -->
+  <text x="600" y="244" text-anchor="middle" class="sub-text" font-size="16" fill="#94a3b8">
+    The Definitive Guide to Enterprise SaaS &amp; High-Performance Open-Source Document Engines
+  </text>
+
+  <!-- Foreground Feature Badges / Capability Highlights -->
+  <g transform="translate(145, 276)">
+    <!-- Pill 1: OCR & AI Extraction -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="168" height="38" rx="19" fill="#1e293b" stroke="#ef4444" stroke-opacity="0.4" stroke-width="1.2" />
+      <text x="84" y="24" text-anchor="middle" class="sub-text" font-size="13" font-weight="600" fill="#fca5a5">⚡ OCR &amp; AI Parsing</text>
+    </g>
+
+    <!-- Pill 2: Merge, Split & Compress -->
+    <g transform="translate(182, 0)">
+      <rect x="0" y="0" width="176" height="38" rx="19" fill="#1e293b" stroke="#f97316" stroke-opacity="0.4" stroke-width="1.2" />
+      <text x="88" y="24" text-anchor="middle" class="sub-text" font-size="13" font-weight="600" fill="#fdba74">✂️ Merge · Split · Compress</text>
+    </g>
+
+    <!-- Pill 3: Self-Hosted & Local Wasm -->
+    <g transform="translate(372, 0)">
+      <rect x="0" y="0" width="186" height="38" rx="19" fill="#1e293b" stroke="#8b5cf6" stroke-opacity="0.4" stroke-width="1.2" />
+      <text x="93" y="24" text-anchor="middle" class="sub-text" font-size="13" font-weight="600" fill="#d8b4fe">🔒 Self-Hosted &amp; Wasm</text>
+    </g>
+
+    <!-- Pill 4: E-Sign & Form Filling -->
+    <g transform="translate(572, 0)">
+      <rect x="0" y="0" width="162" height="38" rx="19" fill="#1e293b" stroke="#3b82f6" stroke-opacity="0.4" stroke-width="1.2" />
+      <text x="81" y="24" text-anchor="middle" class="sub-text" font-size="13" font-weight="600" fill="#93c5fd">✍️ E-Sign &amp; Forms</text>
+    </g>
+
+    <!-- Pill 5: Python · Rust · Go -->
+    <g transform="translate(748, 0)">
+      <rect x="0" y="0" width="162" height="38" rx="19" fill="#1e293b" stroke="#10b981" stroke-opacity="0.4" stroke-width="1.2" />
+      <text x="81" y="24" text-anchor="middle" class="sub-text" font-size="13" font-weight="600" fill="#6ee7b7">🚀 Python · Rust · CLI</text>
+    </g>
+  </g>
+
+  <!-- Modern Subtle Border Stroke -->
+  <rect x="1" y="1" width="1198" height="418" rx="15" fill="none" stroke="#334155" stroke-opacity="0.6" stroke-width="1.5" />
+</svg>
