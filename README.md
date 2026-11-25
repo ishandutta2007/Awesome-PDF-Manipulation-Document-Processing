@@ -70,93 +70,93 @@ An expansive directory of open-source document engines, CLI power tools, WebAsse
 
 ### 🏆 Ranked by GitHub Community Stars
 
-*Sorted in descending order of community adoption and GitHub stars.*
+*Sorted in descending order of community adoption and GitHub_Stars.*
 
-1. **[Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)** [![GitHub stars](https://img.shields.io/github/stars/Stirling-Tools/Stirling-PDF?style=social&color=white)](https://github.com/Stirling-Tools/Stirling-PDF/stargazers)  
+1. **[Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)** [![GitHub_Stars](https://img.shields.io/github/stars/Stirling-Tools/Stirling-PDF?style=social&color=white)](https://github.com/Stirling-Tools/Stirling-PDF/stargazers)  
    *The definitive self-hosted web PDF suite.* A robust, private, Docker-deployable alternative to iLovePDF and Smallpdf offering 50+ operations including OCR, redaction, conversion, multi-tool pipelines, and dark mode UI.
 
-2. **[DS4SD/docling](https://github.com/DS4SD/docling)** [![GitHub stars](https://img.shields.io/github/stars/DS4SD/docling?style=social&color=white)](https://github.com/DS4SD/docling/stargazers)  
+2. **[DS4SD/docling](https://github.com/DS4SD/docling)** [![GitHub_Stars](https://img.shields.io/github/stars/DS4SD/docling?style=social&color=white)](https://github.com/DS4SD/docling/stargazers)  
    *IBM Research's premier document processing engine.* Parses complex PDF documents, multi-column layouts, tables, and formulas into structured Markdown, JSON, and Docling-core formats optimized for GenAI and RAG pipelines.
 
-3. **[typst/typst](https://github.com/typst/typst)** [![GitHub stars](https://img.shields.io/github/stars/typst/typst?style=social&color=white)](https://github.com/typst/typst/stargazers)  
+3. **[typst/typst](https://github.com/typst/typst)** [![GitHub_Stars](https://img.shields.io/github/stars/typst/typst?style=social&color=white)](https://github.com/typst/typst/stargazers)  
    *Modern, lightning-fast Rust-based typesetting system.* Designed as a powerful alternative to LaTeX, compiling clean markup code into publication-quality PDFs with instant live preview.
 
-4. **[mozilla/pdf.js](https://github.com/mozilla/pdf.js)** [![GitHub stars](https://img.shields.io/github/stars/mozilla/pdf.js?style=social&color=white)](https://github.com/mozilla/pdf.js/stargazers)  
+4. **[mozilla/pdf.js](https://github.com/mozilla/pdf.js)** [![GitHub_Stars](https://img.shields.io/github/stars/mozilla/pdf.js?style=social&color=white)](https://github.com/mozilla/pdf.js/stargazers)  
    *Mozilla's universal web standards PDF renderer.* Powers Firefox and hundreds of web and mobile applications, rendering PDF documents directly to HTML5 Canvas and SVG.
 
-5. **[paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)** [![GitHub stars](https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=social&color=white)](https://github.com/paperless-ngx/paperless-ngx/stargazers)  
+5. **[paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)** [![GitHub_Stars](https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=social&color=white)](https://github.com/paperless-ngx/paperless-ngx/stargazers)  
    *Community-driven document management system.* Automatically ingests, indexes, OCRs, classifies, and tags incoming physical and electronic PDF documents for full-text search.
 
-6. **[VikParuchuri/marker](https://github.com/VikParuchuri/marker)** [![GitHub stars](https://img.shields.io/github/stars/VikParuchuri/marker?style=social&color=white)](https://github.com/VikParuchuri/marker/stargazers)  
+6. **[VikParuchuri/marker](https://github.com/VikParuchuri/marker)** [![GitHub_Stars](https://img.shields.io/github/stars/VikParuchuri/marker?style=social&color=white)](https://github.com/VikParuchuri/marker/stargazers)  
    *Deep-learning PDF-to-Markdown converter.* Converts academic papers, books, and complex formatted PDFs into clean Markdown, recovering LaTeX equations, code blocks, and tabular data.
 
-7. **[ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)** [![GitHub stars](https://img.shields.io/github/stars/ocrmypdf/OCRmyPDF?style=social&color=white)](https://github.com/ocrmypdf/OCRmyPDF/stargazers)  
+7. **[ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)** [![GitHub_Stars](https://img.shields.io/github/stars/ocrmypdf/OCRmyPDF?style=social&color=white)](https://github.com/ocrmypdf/OCRmyPDF/stargazers)  
    *Gold standard CLI OCR pipeline.* Injects a high-accuracy Tesseract OCR searchable text layer into scanned PDFs while preserving original images, optimizing file sizes, and ensuring PDF/A compliance.
 
-8. **[VikParuchuri/surya](https://github.com/VikParuchuri/surya)** [![GitHub stars](https://img.shields.io/github/stars/VikParuchuri/surya?style=social&color=white)](https://github.com/VikParuchuri/surya/stargazers)  
+8. **[VikParuchuri/surya](https://github.com/VikParuchuri/surya)** [![GitHub_Stars](https://img.shields.io/github/stars/VikParuchuri/surya?style=social&color=white)](https://github.com/VikParuchuri/surya/stargazers)  
    *Multi-lingual document OCR and layout analysis model.* Delivers state-of-the-art text line detection, table recognition, reading order analysis, and OCR across 90+ languages.
 
-9. **[alam00000/bentopdf](https://github.com/alam00000/bentopdf)** [![GitHub stars](https://img.shields.io/github/stars/alam00000/bentopdf?style=social&color=white)](https://github.com/alam00000/bentopdf/stargazers)  
+9. **[alam00000/bentopdf](https://github.com/alam00000/bentopdf)** [![GitHub_Stars](https://img.shields.io/github/stars/alam00000/bentopdf?style=social&color=white)](https://github.com/alam00000/bentopdf/stargazers)  
    *Zero-server, client-side WebAssembly PDF toolkit.* Performs merges, splits, watermarking, and reordering 100% locally in your browser without transmitting sensitive files to remote servers.
 
-10. **[unstructured-io/unstructured](https://github.com/unstructured-io/unstructured)** [![GitHub stars](https://img.shields.io/github/stars/unstructured-io/unstructured?style=social&color=white)](https://github.com/unstructured-io/unstructured/stargazers)  
+10. **[unstructured-io/unstructured](https://github.com/unstructured-io/unstructured)** [![GitHub_Stars](https://img.shields.io/github/stars/unstructured-io/unstructured?style=social&color=white)](https://github.com/unstructured-io/unstructured/stargazers)  
     *Enterprise ingestion and preprocessing library for LLMs.* Prepares raw PDFs, scans, Word, and PowerPoint docs for downstream RAG architectures, chunking, and vector embedding.
 
-11. **[xournalpp/xournalpp](https://github.com/xournalpp/xournalpp)** [![GitHub stars](https://img.shields.io/github/stars/xournalpp/xournalpp?style=social&color=white)](https://github.com/xournalpp/xournalpp/stargazers)  
+11. **[xournalpp/xournalpp](https://github.com/xournalpp/xournalpp)** [![GitHub_Stars](https://img.shields.io/github/stars/xournalpp/xournalpp?style=social&color=white)](https://github.com/xournalpp/xournalpp/stargazers)  
     *Cross-platform stylus and handwriting note-taking software.* Provides rich PDF annotation, pen stroke smoothing, audio recording synchronization, and digital signature capabilities.
 
-12. **[gotenberg/gotenberg](https://github.com/gotenberg/gotenberg)** [![GitHub stars](https://img.shields.io/github/stars/gotenberg/gotenberg?style=social&color=white)](https://github.com/gotenberg/gotenberg/stargazers)  
+12. **[gotenberg/gotenberg](https://github.com/gotenberg/gotenberg)** [![GitHub_Stars](https://img.shields.io/github/stars/gotenberg/gotenberg?style=social&color=white)](https://github.com/gotenberg/gotenberg/stargazers)  
     *Stateless Docker API for PDF generation.* Leverages headless Chromium and LibreOffice to convert HTML, Markdown, Word, Excel, and images into pristine PDF/A documents via simple HTTP requests.
 
-13. **[pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF)** [![GitHub stars](https://img.shields.io/github/stars/pymupdf/PyMuPDF?style=social&color=white)](https://github.com/pymupdf/PyMuPDF/stargazers)  
+13. **[pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF)** [![GitHub_Stars](https://img.shields.io/github/stars/pymupdf/PyMuPDF?style=social&color=white)](https://github.com/pymupdf/PyMuPDF/stargazers)  
     *Ultra-high-performance Python bindings for MuPDF.* Offers lightning-fast PDF text/image extraction, document rendering, annotation, true content redaction, and Markdown conversion.
 
-14. **[py-pdf/pypdf](https://github.com/py-pdf/pypdf)** [![GitHub stars](https://img.shields.io/github/stars/py-pdf/pypdf?style=social&color=white)](https://github.com/py-pdf/pypdf/stargazers)  
+14. **[py-pdf/pypdf](https://github.com/py-pdf/pypdf)** [![GitHub_Stars](https://img.shields.io/github/stars/py-pdf/pypdf?style=social&color=white)](https://github.com/py-pdf/pypdf/stargazers)  
     *Pure-Python PDF manipulation library.* The battle-tested successor to PyPDF2 for splitting, merging, rotating, cropping, AES encrypting, watermarking, and inspecting PDF streams without external dependencies.
 
-15. **[PDFCraftTool/pdfcraft](https://github.com/PDFCraftTool/pdfcraft)** [![GitHub stars](https://img.shields.io/github/stars/PDFCraftTool/pdfcraft?style=social&color=white)](https://github.com/PDFCraftTool/pdfcraft/stargazers)  
+15. **[PDFCraftTool/pdfcraft](https://github.com/PDFCraftTool/pdfcraft)** [![GitHub_Stars](https://img.shields.io/github/stars/PDFCraftTool/pdfcraft?style=social&color=white)](https://github.com/PDFCraftTool/pdfcraft/stargazers)  
     *Modern, privacy-first PDF manipulation toolkit.* Engineered for high-speed, local document processing, automated pipelines, and developer workflows.
 
-16. **[Kozea/WeasyPrint](https://github.com/Kozea/WeasyPrint)** [![GitHub stars](https://img.shields.io/github/stars/Kozea/WeasyPrint?style=social&color=white)](https://github.com/Kozea/WeasyPrint/stargazers)  
+16. **[Kozea/WeasyPrint](https://github.com/Kozea/WeasyPrint)** [![GitHub_Stars](https://img.shields.io/github/stars/Kozea/WeasyPrint?style=social&color=white)](https://github.com/Kozea/WeasyPrint/stargazers)  
     *Visual HTML-to-PDF rendering engine for Python.* Compiles HTML5 and CSS3 (Paged Media standards) into publication-grade invoices, reports, and books.
 
-17. **[pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu)** [![GitHub stars](https://img.shields.io/github/stars/pdfcpu/pdfcpu?style=social&color=white)](https://github.com/pdfcpu/pdfcpu/stargazers)  
+17. **[pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu)** [![GitHub_Stars](https://img.shields.io/github/stars/pdfcpu/pdfcpu?style=social&color=white)](https://github.com/pdfcpu/pdfcpu/stargazers)  
     *Blazing-fast PDF processor written in Go.* Supports PDF validation, optimization, encryption, booklet creation, stamping, clipping, and extraction via standalone CLI or Go module.
 
-18. **[Hopding/pdf-lib](https://github.com/Hopding/pdf-lib)** [![GitHub stars](https://img.shields.io/github/stars/Hopding/pdf-lib?style=social&color=white)](https://github.com/Hopding/pdf-lib/stargazers)  
+18. **[Hopding/pdf-lib](https://github.com/Hopding/pdf-lib)** [![GitHub_Stars](https://img.shields.io/github/stars/Hopding/pdf-lib?style=social&color=white)](https://github.com/Hopding/pdf-lib/stargazers)  
     *Isomorphic JavaScript PDF creation and modification engine.* Runs seamlessly across Node.js, browsers, Deno, and React Native to draw text/vectors, fill forms, and assemble PDFs.
 
-19. **[pdfminer/pdfminer.six](https://github.com/pdfminer/pdfminer.six)** [![GitHub stars](https://img.shields.io/github/stars/pdfminer/pdfminer.six?style=social&color=white)](https://github.com/pdfminer/pdfminer.six/stargazers)  
+19. **[pdfminer/pdfminer.six](https://github.com/pdfminer/pdfminer.six)** [![GitHub_Stars](https://img.shields.io/github/stars/pdfminer/pdfminer.six?style=social&color=white)](https://github.com/pdfminer/pdfminer.six/stargazers)  
     *Deep Python PDF layout inspection and extraction library.* Analyzes exact font metrics, character bounding boxes, color spaces, and layout positioning for complex documents.
 
-20. **[pdfarranger/pdfarranger](https://github.com/pdfarranger/pdfarranger)** [![GitHub stars](https://img.shields.io/github/stars/pdfarranger/pdfarranger?style=social&color=white)](https://github.com/pdfarranger/pdfarranger/stargazers)  
+20. **[pdfarranger/pdfarranger](https://github.com/pdfarranger/pdfarranger)** [![GitHub_Stars](https://img.shields.io/github/stars/pdfarranger/pdfarranger?style=social&color=white)](https://github.com/pdfarranger/pdfarranger/stargazers)  
     *Lightweight Python/GTK desktop utility.* Provides an intuitive drag-and-drop visual interface to rearrange, crop, rotate, split, and merge PDF pages effortlessly.
 
-21. **[qpdf/qpdf](https://github.com/qpdf/qpdf)** [![GitHub stars](https://img.shields.io/github/stars/qpdf/qpdf?style=social&color=white)](https://github.com/qpdf/qpdf/stargazers)  
+21. **[qpdf/qpdf](https://github.com/qpdf/qpdf)** [![GitHub_Stars](https://img.shields.io/github/stars/qpdf/qpdf?style=social&color=white)](https://github.com/qpdf/qpdf/stargazers)  
     *Core C++ command-line tool and content-preserving transform library.* Specializes in linearizing (web-optimizing), decrypting, structural inspecting, and repairing PDF object syntax.
 
-22. **[kermitt2/grobid](https://github.com/kermitt2/grobid)** [![GitHub stars](https://img.shields.io/github/stars/kermitt2/grobid?style=social&color=white)](https://github.com/kermitt2/grobid/stargazers)  
+22. **[kermitt2/grobid](https://github.com/kermitt2/grobid)** [![GitHub_Stars](https://img.shields.io/github/stars/kermitt2/grobid?style=social&color=white)](https://github.com/kermitt2/grobid/stargazers)  
     *Machine learning library for parsing scientific PDFs.* Extracts bibliographies, author affiliations, abstract metadata, and structured TEI-XML representations.
 
-23. **[pdfme/pdfme](https://github.com/pdfme/pdfme)** [![GitHub stars](https://img.shields.io/github/stars/pdfme/pdfme?style=social&color=white)](https://github.com/pdfme/pdfme/stargazers)  
+23. **[pdfme/pdfme](https://github.com/pdfme/pdfme)** [![GitHub_Stars](https://img.shields.io/github/stars/pdfme/pdfme?style=social&color=white)](https://github.com/pdfme/pdfme/stargazers)  
     *TypeScript open-source PDF generator and visual WYSIWYG template designer.* Allows users to construct dynamic invoice and certificate layouts in the browser with drag-and-drop components.
 
-24. **[torakiki/pdfsam](https://github.com/torakiki/pdfsam)** [![GitHub stars](https://img.shields.io/github/stars/torakiki/pdfsam?style=social&color=white)](https://github.com/torakiki/pdfsam/stargazers)  
+24. **[torakiki/pdfsam](https://github.com/torakiki/pdfsam)** [![GitHub_Stars](https://img.shields.io/github/stars/torakiki/pdfsam?style=social&color=white)](https://github.com/torakiki/pdfsam/stargazers)  
     *Classic cross-platform Java desktop solution (PDF Split and Merge).* Established tool for visual split-by-bookmarks, page extraction, rotation, and merging.
 
-25. **[LibrePDF/OpenPDF](https://github.com/LibrePDF/OpenPDF)** [![GitHub stars](https://img.shields.io/github/stars/LibrePDF/OpenPDF?style=social&color=white)](https://github.com/LibrePDF/OpenPDF/stargazers)  
+25. **[LibrePDF/OpenPDF](https://github.com/LibrePDF/OpenPDF)** [![GitHub_Stars](https://img.shields.io/github/stars/LibrePDF/OpenPDF?style=social&color=white)](https://github.com/LibrePDF/OpenPDF/stargazers)  
     *LGPL/MPL open-source Java PDF library.* An actively maintained fork of iText 2/4 for high-throughput server-side Java PDF generation and document stamping.
 
-26. **[jorisschellekens/borb](https://github.com/jorisschellekens/borb)** [![GitHub stars](https://img.shields.io/github/stars/jorisschellekens/borb?style=social&color=white)](https://github.com/jorisschellekens/borb/stargazers)  
+26. **[jorisschellekens/borb](https://github.com/jorisschellekens/borb)** [![GitHub_Stars](https://img.shields.io/github/stars/jorisschellekens/borb?style=social&color=white)](https://github.com/jorisschellekens/borb/stargazers)  
     *Modern pure-Python PDF layout and generation engine.* Built around declarative layout paradigms similar to web CSS box models for invoices, charts, and report generation.
 
-27. **[apache/pdfbox](https://github.com/apache/pdfbox)** [![GitHub stars](https://img.shields.io/github/stars/apache/pdfbox?style=social&color=white)](https://github.com/apache/pdfbox/stargazers)  
+27. **[apache/pdfbox](https://github.com/apache/pdfbox)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/pdfbox?style=social&color=white)](https://github.com/apache/pdfbox/stargazers)  
     *Apache Software Foundation's Java PDF library.* Comprehensive toolkit for parsing, rendering, text indexing, form filling, and digital signing in enterprise Java environments.
 
-28. **[tabulapdf/tabula-java](https://github.com/tabulapdf/tabula-java)** [![GitHub stars](https://img.shields.io/github/stars/tabulapdf/tabula-java?style=social&color=white)](https://github.com/tabulapdf/tabula-java/stargazers)  
+28. **[tabulapdf/tabula-java](https://github.com/tabulapdf/tabula-java)** [![GitHub_Stars](https://img.shields.io/github/stars/tabulapdf/tabula-java?style=social&color=white)](https://github.com/tabulapdf/tabula-java/stargazers)  
     *Table extraction engine for PDF files.* Accurately extracts structured tables and tabular rows into CSV, TSV, or JSON formats without losing column alignments.
 
-29. **[MatthiasValvekens/pyHanko](https://github.com/MatthiasValvekens/pyHanko)** [![GitHub stars](https://img.shields.io/github/stars/MatthiasValvekens/pyHanko?style=social&color=white)](https://github.com/MatthiasValvekens/pyHanko/stargazers)  
+29. **[MatthiasValvekens/pyHanko](https://github.com/MatthiasValvekens/pyHanko)** [![GitHub_Stars](https://img.shields.io/github/stars/MatthiasValvekens/pyHanko?style=social&color=white)](https://github.com/MatthiasValvekens/pyHanko/stargazers)  
     *Cryptographic digital signatures and encryption for PDF files in Python.* Implements PAdES, CAdES, PKI hardware token (PKCS#11) integration, and timestamping authority verification.
 
 30. **[ArtifexSoftware/ghostscript](https://ghostscript.com)**  
